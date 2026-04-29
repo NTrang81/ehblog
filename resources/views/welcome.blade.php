@@ -1,1 +1,4 @@
-<h1 class="text-2xl mb-4 font-bold">Welcome </h1>
+<x-site-layout>
+    <h1 class="font-bold text-xl">Welcome to EhB Demo!</h1>
+    <p>Dit is de welcome pagina</p>
+</x-site-layout>
