@@ -6,27 +6,27 @@ class AboutController extends Controller
 {
     public function index()
     {
-        $firstname = "Nico";
-        $familyname = "Deblauwe";
+        $firstname = "Trang";
+        $familyname = "Nguyen";
         $person = "$firstname $familyname";
-        $age = 45;
+        $age = 21;
 
-        $hobbies = ['koken', 'fietsen', 'film kijken', 'web development'];
+        $hobbies = ['koken', 'film kijken', 'spelletjes spelen'];
 
         $family = [
-            ['name' => 'Katrijn', 'gender' => 'female'],
-            ['name' => 'Aster', 'gender' => 'female'],
-            ['name' => 'Merel', 'gender' => 'female'],
-            ['name' => 'Iben', 'gender' => 'male'],
-            ['name' => 'Nico', 'gender' => 'male'],
+            ['name' => 'Daniil', 'gender' => 'male'],
+            ['name' => 'Trang', 'gender' => 'female'],
+            ['name' => 'Y', 'gender' => 'female'],
+            ['name' => 'Long', 'gender' => 'male'],
+            ['name' => 'Tam', 'gender' => 'male'],
         ];
 
         $familyAsObject = [
-            (object) ['name' => 'Katrijn', 'gender' => 'female'],
-            (object) ['name' => 'Aster', 'gender' => 'female'],
-            (object) ['name' => 'Merel', 'gender' => 'female'],
-            (object) ['name' => 'Iben', 'gender' => 'male'],
-            (object) ['name' => 'Nico', 'gender' => 'male'],
+            (object) ['name' => 'Daniil', 'gender' => 'male'],
+            (object) ['name' => 'Trang', 'gender' => 'female'],
+            (object) ['name' => 'Y', 'gender' => 'female'],
+            (object) ['name' => 'Long', 'gender' => 'male'],
+            (object) ['name' => 'Tam', 'gender' => 'male'],
         ];
 
         return view('about', [
